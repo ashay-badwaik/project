@@ -1,0 +1,73 @@
+#nav-bar {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: #f7f7f7;
+} 
+
+.right-heading {
+  position: absolute;
+  /* border: 2px solid red; */
+  top: 50%;
+  left: 15%;
+  width: 50%;
+  min-width: 200px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.right-para {
+  position: absolute;
+  /* border: 2px solid red; */
+  top: 55%;
+  left: 15%;
+  width: 220px;
+  color: #ffe8df;
+}
+
+#badges {
+  position: absolute;
+  right: 20%;
+  top: 800px;
+}
+
+#fb-badge {
+  position: absolute;
+  /* flex: 0 1 50%; */
+  width: 30px;
+  height: 22px;
+  background: transparent url("./../images/FB-icon-black@2x.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+#li-badge {
+  position: absolute;
+  /* flex: 0 1 50%; */
+  left: 30px;
+  width: 30px;
+  height: 22px;
+  background: transparent url("./../images/linkedin-icon-black@2x.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+#tw-badge {
+  position: absolute;
+  /* flex: 0 1 50%; */
+  left: 60px;
+  width: 30px;
+  height: 22px;
+  background: transparent url("./../images/Twitter-icon-black@2x.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}

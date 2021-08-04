@@ -1,0 +1,88 @@
+/* #catAndDog {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+
+  width: 194px;
+  height: 62px;
+  background: transparent url("./../images/Cat-N-Dog-Logo.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+} */
+
+#catAndDog {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+
+  width: 12vw;
+  height: 62px;
+  min-width: 190px;
+  background: transparent url("./../images/Cat-N-Dog-Logo.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+#heading {
+  position: absolute;
+  top: 300px;
+  left: 5%;
+  width: 60%;
+  height: 162px;
+  min-width: 500px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  font-size: 40px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
+  /* border: 2px solid red; */
+}
+
+#paragraph {
+  position: absolute;
+  top: 500px;
+  left: 5%;
+  width: 52%;
+  height: 108px;
+  min-width: 445px;
+  letter-spacing: var(--unnamed-character-spacing--0-11);
+  text-align: left;
+  letter-spacing: -0.11px;
+  color: #6d6d6d;
+  opacity: 1;
+  /* border: 2px solid red; */
+}
+
+.store-badges{
+  position: absolute;
+  /* border: 2px solid red; */
+  /* top: 706px; */
+  top: 700px;
+  left: 5%;
+  width: 370px;
+  height: 80px;
+}
+
+#appStoreBadge {
+  position: absolute;
+  top: 13px;
+  /* left: 5%; */
+  width: 160px;
+  height: 53px;
+  background: transparent url("./../images/AppStoreBadge.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+#playStoreBadge {
+  position: absolute;
+  border: none;
+  /* top: 693px; */
+  left: 160px;
+  width: 207px;
+  height: 80px;
+  background: transparent url("./../images/google-play-badge.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
